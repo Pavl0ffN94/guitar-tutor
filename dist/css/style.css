@@ -837,10 +837,11 @@ html {
 
   .hamburger {
     width: 30px;
-    position: absolute;
+    position: fixed;
     top: 40px;
     right: 30px;
-    height: 14px; }
+    height: 14px;
+    z-index: 30; }
     .hamburger span {
       height: 2px;
       width: 100%;
